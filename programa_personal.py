@@ -1,13 +1,25 @@
-print("=== Inventario SENCILLO ===")
+print("=== INVENTARIO SENCILLO - VERSION 2.0 ===")
 
-Producto = input("Escribe el nombre del producto:")
-Cantidad = int(input("Escribe la cantidad disponible:"))
-precio = float(input("Escribe el precio del producto:"))
+continuar = "si"
 
-TOTAL = Cantidad * precio
+while continuar == "si":
+    producto = input("/nEscribe el nombre del producto: ")
+    cantidad = int(input("Escribir la cantidad disponible: "))
+    precio = float(input("Escribe el precio del producto: "))
 
-print("/n--- RESULTADO ---")
-print("Producto:", Producto)
-print("Cantidad:", Cantidad)
-print("Precio: $", precio)
-print("Valor total del inventario: $", TOTAL)
+    TOTAL = cantidad * precio
+
+    print("/n--- RESULTADO---")
+    print("Producto:",producto)
+    print("Cantidad:",cantidad)
+    print("precio: $", precio)
+    print("Valor total del inventario: $", TOTAL)
+
+    if cantidad == 0:
+        print("Estado: Producto agotado.")
+    elif cantidad <= 5:
+        print("Estado: Quedan pocas unidades.")
+    else:
+        print("Estado Inventrio disponible.")
+    continuar = input("/n¿Deseas registrar otro producto? (si/no): ").lower()
+print("/nPrograma finalizado.")
