@@ -31,3 +31,5 @@ while continuar == "si":
     verificar_estado(cantidad)
     continuar = input("/n¿Deseas registrar otro producto? (si/no): ").lower()
 print("/nPrograma finalizado.")
+
+print("Hola Mundo")
