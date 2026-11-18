@@ -31,6 +31,10 @@ continuar = "si"
 
 while continuar == "si":
     producto = input("\nEscribe el nombre del producto: ")
+    
+    if producto.strip() == "":
+        print("Error: El nombre del producto no puede estar vacio.")
+        continue
     try:
         cantidad = int(input("Escribir la cantidad disponible: "))
         if cantidad < 0:
