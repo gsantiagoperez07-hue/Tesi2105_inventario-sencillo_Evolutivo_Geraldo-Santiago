@@ -53,3 +53,20 @@ Estado: Inventario disponible.
 ## Version
 
 Proyecto final - Inventario Sencillo Evolutivo.
+
+Version final: 4.0
+
+## Conceptos de Programacion Orientada a objetos
+
+Archivo principal:
+programa_persoanl.py
+
+Clase Producto: almacen el nombre, la cantidad y el precio.
+
+Metodo __init__(): inicializa los atributos del producto.
+
+Metodo calcular_valor(): calcular el valor total del inventario.
+
+Objeto nuevo_producto: representa el producto registrado.
+
+Encapsulacion: los datos y el calculo del producto estan organizados dentro de la clase Producto.
