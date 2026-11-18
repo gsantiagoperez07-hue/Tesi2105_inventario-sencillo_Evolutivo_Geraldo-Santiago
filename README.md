@@ -27,3 +27,29 @@ El programa repondio correctamente en las pruebas realizadas.
 
 ## Autor
 Geraldo Santiago Perez
+
+## Requisitos 
+
+Tener Python 3 instalado en la computadora.
+No necesita bibliotecas externas.
+
+## Instrucciones de uso 
+
+1. Descargar el archivo programa_personal.py.
+2. Abrir una terminal en la carpeta del archivo.
+3. Ejecutar: python programa_personal.py
+4. Escribir el nombre, cantidad y precio del producto.
+5. Revisar el resultado del inventario.
+6. Escribir "no" para finalizar.
+
+## Ejemplo de uso
+
+Producto: Lapiz
+Cantidad: 10 
+Precio: 2.50
+Valor total del inventario: $25.00
+Estado: Inventario disponible.
+
+## Version
+
+Proyecto final - Inventario Sencillo Evolutivo.
